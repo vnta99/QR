@@ -1,2 +1,2 @@
-# QR
-Simple qr code card
+# qr-code
+ 

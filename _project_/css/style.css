@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit:regular,700);
+html,
+body {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  width: 1440px;
+  height: 100%;
+  background-color: #D5E1EF;
+  margin: 0 auto;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .container {
+  width: 320px;
+  height: 497px;
+  padding: 16px 16px 40px 16px;
+  background: #FFFFFF;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+  border-radius: 20px;
+}
+.box .container .container__image img {
+  width: 288px;
+  height: 288px;
+  background-color: #3685FF;
+  background-size: 288px;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+.box .container .container__text {
+  width: 288px;
+  height: 129px;
+  text-align: center;
+  margin: auto;
+}
+.box .container .container__text h1 {
+  height: 56px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: #1F314F;
+}
+.box .container .container__text p {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.1875px;
+  color: #7D889E;
+}/*# sourceMappingURL=style.css.map */
